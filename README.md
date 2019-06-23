@@ -28,7 +28,7 @@ $ mv android-ndk-r17c ndk-r17c
 
 ```bash
 $ cd ~
-$ cd monero-android-lib/external-libs
+$ cd txchangecoin-android-lib/external-libs
 $ mkdir -p build/src
 $ make all
 ```
