@@ -6,11 +6,11 @@ source script/env.sh
 
 cd $EXTERNAL_LIBS_BUILD_ROOT
 
-url="https://github.com/m2049r/monero"
-version="release-v0.14.0-monerujo"
+url="https://github.com/txchangecoin-project/txchangecoin"
+version="release-v0.1.1.0"
 
-if [ ! -d "monero" ]; then
-  git clone ${url} -b ${version}
+if [ ! -d "txchangecoin" ]; then
+  git clone ${url} -b ${version} monero
   cd monero
   git submodule update --recursive --init
 else
