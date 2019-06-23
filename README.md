@@ -24,7 +24,7 @@ $ unzip android-ndk-r17c-linux-x86_64.zip
 $ mv android-ndk-r17c ndk-r17c
 ```
 
-### Build Monero
+### Build Txchangecoin
 
 ```bash
 $ cd ~
